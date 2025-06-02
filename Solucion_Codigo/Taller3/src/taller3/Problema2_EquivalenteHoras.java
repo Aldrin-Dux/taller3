@@ -18,11 +18,8 @@ class EquivalenteHora {
     public EquivalenteHora(){
     }
 
-    public EquivalenteHora(int horas, int minutos, int segundos, int dias) {
+    public EquivalenteHora(int horas) {
         this.horas = horas;
-        this.minutos = minutos;
-        this.segundos = segundos;
-        this.dias = dias;
     }
 
     public void calcularMinutos(){
